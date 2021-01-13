@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuevo Porvenir</title>
+    <link rel="icon" href="logos/camion.svg " sizes="any" >
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;0,600;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/LOGO CNP NUEVO.png" width="300px">
+                </div>
+                <nav>
+                    <ul id="MenuItems"> 
+                        <li><a href="">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="images/cart.png" width="30px" height="30px">
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <!-- <div class="small-container">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="inf-cont">
+                            <span>venta telefonica</span>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="inf-cont">
+                            <span>Centro de ayuda</span>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="inf-cont">
+                            <span>Centro de ayuda devoluciones</span>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            
+            <div class="row">
+                <div class="col-2">
+                    <h1>Todo lo que necesitas <br> en un solo lugar</h1>
+                    <p>Encuentra las mejores marcas en un solo lugar<br>contamos con envios a toda Bogota</p>
+                    <a href="" class="btn">Explore Now &#8594;</a>
+                </div>
+                <div class="col-2">
+                    <img src="imagenes-productos/maestro.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--------- featured categories ----->
+       <div class="categories">
+           <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="imagenes-productos/cemento/argo-ug-50kg.png" >
+                    </div>
+                    <div class="col-3">
+                    <img src="imagenes-productos/cemento/cemex-ug-50kg.jpg" >
+                    </div>
+                    <div class="col-3">
+                        <img src="imagenes-productos/cemento/fortecem-ug-50kg.jpg"
+                    </div>
+                </div>
+           </div> 
+        </div>     
+     <!-------- Featured products------->
+            <div class="small-container">
+                <h2 class="title">Productos destacados</h2>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="imagenes-productos/drywall/drywall.jpg" alt="">
+                        <h4>Lamina de drywall 1/2</h4>
+                        <p>$27.000</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="imagenes-productos/drywall/fibrocemento 4mm.jpg" alt="">
+                        <h4>Lamina de fibrocemento 1/2</h4>
+                        <div class="rating">
+                        </div>
+                        <p>$50.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="imagenes-productos/drywall/drywall-RH.jpg" alt="">
+                        <h4>Lamina de drywall RH 1/2</h4>
+                        <p>$50.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="imagenes-productos/drywall/carga-amarilla.jpg" alt="">
+                        <h4>Carga ramset amarilla</h4>
+                        <p>$50.00</p>
+                    </div>
+                </div>
+                <!--------- Latest Products ---------->
+                <h2 class="title">Productos Nuevos</h2>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="imagenes-productos/Productos Nuevos/descarga.jpg" alt="">
+                        <h4>Taladro rotomartillo bosch</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>$50.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="imagenes-productos/Productos Nuevos/mapelatex.jpg" alt="">
+                        <h4>Mapelatex</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <p>$50.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="imagenes-productos/Productos Nuevos/nivel-laser-165_-x-1_8_-dw088k-cruz--1.jpg" alt="">
+                        <h4>Nivel Laser Dewalt</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>$50.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="imagenes-productos/Productos Nuevos/pintura-antibacterial-semimate-galon.jpg" alt="">
+                        <h4>Pintura antibacterial corona</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>$50.00</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4">
+                        <img src="imagenes-productos/Productos Nuevos/pintura-impermeabilizante-corona.jpg" alt="">
+                        <h4>Pintura impermeabilizante corona</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>$50.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="imagenes-productos/Productos Nuevos/pulidora-angular-7-dewalt-dw-840.jpg" alt="">
+                        <h4>Pulidora angular de 7"</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <p>$50.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="imagenes-productos/Productos Nuevos/taladro-bosch-gsb-550-kit-34-accesorios-gsb-550-kit.jpg" alt="">
+                        <h4>Taladro Bosch</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>$50.00</p>
+                    </div>
+                    <div class="col-4">
+                        <img src="imagenes-productos/Productos Nuevos/taladro-percutor-inalambrico-1_2pg-20v-ion-de-litio-dewalt-3.jpg" alt="">
+                        <h4>Taladro Inalanbrico dewalt</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o"></i>
+                        </div>
+                        <p>$50.00</p>
+                    </div>
+                </div>  
+            </div>    
+<!----------------- OFFER ---------------->
+
+            <div class="offer">
+                <div class="small-container">
+                    <div class="row">
+                        <div class="col-2">
+                            <img src="imagenes-productos/imagen principal/TRONZADORA.PNG" class="offer-img">
+                        </div>
+                        <div class="col-2">
+                            <p>Disponibilidad inmediata</p>
+                            <h1>Tronzadora trupper</h1>
+                            <small>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsa porro deleniti exercitationem assumenda, obcaecati beatae vel, nam maiores hic reprehenderit illo maxime, architecto quasi! Doloribus eius voluptates suscipit enim et!</small>
+                            <a class="btn">Comprar ahora &#8594;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        <!--                testimonal                -->
+            <div class="testimonial">
+                <div class="small-container">
+                    <div class="row">
+                        <div class="col-3">
+                            <i class="fa fa-quote-left"></i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore labore doloremque nostrum laboriosam ipsum facilis excepturi.</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <img src="images/user-1.png" alt="">
+                            <h3>Sean Parker</h3>
+                        </div>
+                        <div class="col-3">
+                            <i class="fa fa-quote-left"></i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore labore doloremque nostrum laboriosam ipsum facilis excepturi.</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <img src="images/user-2.png" alt="">
+                            <h3>Mike Smith</h3>
+                        </div>
+                        <div class="col-3">
+                            <i class="fa fa-quote-left"></i>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore labore doloremque nostrum laboriosam ipsum facilis excepturi.</p>
+                            <div class="rating">
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star"></i>
+                                <i class="fa fa-star-o"></i>
+                            </div>
+                            <img src="images/user-3.png" alt="">
+                            <h3>Mabel Joe</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <!-- --------- BRANDS --------- -->
+            <div class="brands">
+                <div class="small-container">
+                   <div class="row">
+                    <div class="col-5">
+                        <img src="imagenes-proveedores/sika.png" >
+                    </div>
+                    <div class="col-5">
+                        <img src="imagenes-proveedores/argos.jpg" >
+                    </div>
+                    <div class="col-5">
+                    <img src="imagenes-proveedores/corona.png" >
+                    </div>
+                    <div class="col-5">
+                        <img src="imagenes-proveedores/grival.jpg" >
+                    </div>
+                    <div class="col-5">
+                        <img src="imagenes-proveedores/santafe.png" >
+                    </div>
+                   </div> 
+                </div>
+            </div>
+                <!-- footer -->
+            <!-- <div class="footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="footer-col-1">
+                            <h3>Download Our App</h3>
+                            <p>Download App for Android and ios mobile phone.</p>
+                            <div class="app-logo">
+                                <img src="images/play-store.png">
+                                <img src="images/app-store.png">
+                            </div>
+                        </div>
+                        <div class="footer-col-2">
+                            <img src="images/logo-white.png" >
+                            <p>Our Purpose Is To Sustainably Make the Pleasure and Benifits of Sports Accesible to the Many.</p>
+                        </div>
+                        <div class="footer-col-3">
+                            <h3>useful Links</h3>
+                            <ul>
+                                <li>Coupons</li>
+                                <li>Blog Post</li>
+                                <li>Return Policy</li>
+                                <li>Join Affiliate</li>
+                            </ul>
+                        </div>
+                        <div class="footer-col-4">
+                            <h3>Follow us</h3>
+                            <ul>
+                                <li>Facebook</li>
+                                <li>Twitter</li>
+                                <li>Instagram</li>
+                                <li>YouTube</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <hr>
+                    <p class="copyright">Copyright 2020 - Easy Tutorials</p>
+                </div>
+                <div>Iconos diseñados por <a href="https://www.flaticon.es/autores/smalllikeart" title="smalllikeart">smalllikeart</a> from <a href="https://www.flaticon.es/" title="Flaticon"> www.flaticon.es</a></div>
+            </div>     -->
+       <!--    js for toggle menu       -->
+
+       <script>
+           var MenuItems = document.getElementById("MenuItems");
+           MenuItems.style.maxHeight = "0px";
+           function menutoggle(){
+               if(MenuItems.style.maxHeight == "0px")
+                    {
+                        MenuItems.style.maxHeight = "200px";
+                    }else{
+                        MenuItems.style.maxHeight = "0px";
+                    }
+           }
+       </script>
+         
+</body>
+</html>
