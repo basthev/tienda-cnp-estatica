@@ -269,6 +269,10 @@ ul{
 /* -------------------- media query for menu --------  */
 
 @media only screen and (max-width: 800px){
+    .logo img{
+        width: 150px;
+        margin-right: 1rem;
+    }
     
     nav ul{
         position: absolute;
